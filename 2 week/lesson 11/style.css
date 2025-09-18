@@ -1,0 +1,15 @@
+/* селектор по тегу */
+p {
+   color: blue;
+}
+/* селектор по классу */
+.bold {
+    font-weight: bold;
+}
+/* селектор по ID */
+#red {
+    color: red;
+}
+.green {
+    color: green;
+}
