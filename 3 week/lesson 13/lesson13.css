@@ -1,0 +1,35 @@
+html {
+    font-size: 12px;
+}
+.container {
+    font-size: 2rem;
+}
+.text {
+    font-size: 6px;
+}
+.text1 {
+    font-size: 2em;
+}
+.box {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.box1 {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+/* Задание 2: Работа с цветовыми моделями */
+.red {
+    color: #ff5367;
+    background-color: #f90;
+}
+.blue {
+    color: rgb(0, 100, 180);
+    background-color: rgb(208, 0, 255);
+}
+.green {
+    color: rgba(0, 255, 55, 0.436);
+}
