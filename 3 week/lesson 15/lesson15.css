@@ -1,0 +1,24 @@
+.block {
+    background-color: rgb(225, 173, 230);
+    margin: 10px 0;
+    padding: 10px;
+    display: inline; /* Задание 2: Преобразование элементов */
+
+}
+
+.line {
+    border: 2px solid black;
+    display: block; /* Задание 2: Преобразование элементов */
+}
+
+.container {
+    display: block;
+    padding: 20px; /* внутренние отступы */
+    border: 2px solid black; /* рамка для наглядности */
+    width: 300px;
+}
+
+.child {
+    display: block;
+    text-align: center;
+}
