@@ -1,0 +1,77 @@
+/* Задание 1: Псевдоклассы `hover` и `focus` */
+.button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.input:focus {
+    border-color: rgb(255, 0, 0);
+    border-width: 4px;
+}
+
+/* Задание 2: Псевдоклассы `first-child` и `last-child` */
+
+.list__item:first-child {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.list__item:last-child {
+    background-color: palegreen;
+    font-style: italic;
+}
+
+/* Задание 3: Применение псевдоклассов к разным элементам */
+
+.block {
+    border: 2px solid #444;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+}
+
+.block a:hover {
+    color: red;
+}
+
+.block input:focus {
+    background-color: #007bff;
+}
+
+/* Нечётные текстовые элементы внутри блока */
+.list-item:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Первый и последний элементы внутри блока */
+.list-item:first-child {
+    font-weight: bold;
+}
+
+.list-item:last-child {
+    color: #ff0000;
+}
+
+/* Задание 4: Комбинация псевдоклассов */
+
+ .block1 {
+      border: 2px solid blue;
+      padding: 15px;
+      margin: 15px;
+      width: 300px;
+    }
+
+ /* Первый дочерний элемент + hover */
+    .block1 p:first-child:hover {
+      background-color: lightblue;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+     /* Последний дочерний элемент + focus */
+    .block1 input:last-child:focus {
+      background-color: yellow;
+      
+    }
+
+
