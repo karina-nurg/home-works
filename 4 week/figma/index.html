@@ -1,46 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="IMAGE.svg" alt="logo">
-            </div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Episodes</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">
+          <img src="IMAGE.svg" alt="logo" />
+        </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="hero">
-        <div class="image">
-            <img src="Frame.svg" alt="main image">
+      <div class="image">
+        <img src="Frame.svg" alt="main image" />
+      </div>
+      <div class="content">
+        <h2>
+          Take your <br />
+          podcast to the <span>next <b>level</b></span>
+        </h2>
+        <p>Listen on</p>
+        <div class="platforms">
+          <img class="icons" src="IMAGE (1).svg" alt="image 1" />
+          <img class="icons" src="IMAGE (2).svg" alt="image 2" />
+          <img class="icons" src="IMAGE (3).svg" alt="image 3" />
+          <img class="icons" src="IMAGE (4).svg" alt="image 4" />
+          <img class="icons" src="IMAGE (5).svg" alt="image 5" />
         </div>
-        <div class="content">
-            <h2>
-                Take your <br> podcast to the <span>next <b>level</b></span>
-            </h2>
-            <p>Listen on</p>
-            <div class="platforms">
-                <img class="icons" src="IMAGE (1).svg" alt="image 1">
-                <img class="icons" src="IMAGE (2).svg" alt="image 2">
-                <img class="icons" src="IMAGE (3).svg" alt="image 3">
-                <img class="icons" src="IMAGE (4).svg" alt="image 4">
-                <img class="icons" src="IMAGE (5).svg" alt="image 5">
-            </div>
-        </div>
+      </div>
     </section>
-</body>
+
+    <!-- Home work -->
+    <section class="episodes">
+      <div class="episodes-header">
+        <h2>Latest episodes</h2>
+        <button>View all episodes</button>
+      </div>
+      <div class="card">
+        <img src="Frame.png" alt="gear" width="389" height="465" />
+        <div class="card-block">
+          <div class="badge1">Gear</div>
+          <div class="episode1">Episode 3</div>
+          <div class="title">Should you get outboard audio gear?</div>
+          <div class="subtitle">
+            Is hardware really worth it when it comes to podcasting? The answer
+            is...it depends. Here’s our reasons on why you might want to
+            consider picking something up.
+          </div>
+          <button class="btn">View Episode Details</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Frame (1).png" alt="micro" width="389" height="432" />
+        <div class="card-block">
+          <div class="badge">Tips & Tricks</div>
+          <div class="episode">Episode 2</div>
+          <div class="title">Mic tricks to take you to the next level</div>
+          <div class="subtitle">
+            Stop rolling with those default settings on your mic. These small
+            tweaks will take you from sounding good to great.
+          </div>
+          <button class="btn">View Episode Details</button>
+        </div>
+      </div>
+
+      <div class="card1">
+        <img src="Frame (2).png" alt="singer" width="389" height="432" />
+        <div class="card-block">
+          <div class="badge1">Gear</div>
+          <div class="episode">Episode 1</div>
+          <div class="title1">The best microphone under $200</div>
+          <div class="subtitle">
+            With so many microphones on the market, how are you supposed to know
+            what’s the best? Take a look at our top picks.
+          </div>
+          <button class="btn">View Episode Details</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero1">
+      <div class="content">
+        <img class="icon" src="Frame (4).png" alt="icon" />
+        <div class="name">Meet your host</div>
+        <div class="title_1">Jacob Paulaner</div>
+        <div class="subtitle1">
+          Jacob has a background in audio engineering, and has been podcasting
+          since the early days.
+        </div>
+        <div class="subtitle">
+          He’s here to help you level up your game by sharing everything he’s
+          learned along the way.
+        </div>
+      </div>
+
+      <img src="Frame (3).png" alt="main image" width="650" height="743" />
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe-container">
+        <!-- Левая часть -->
+        <div class="subscribe-text">
+          <p class="small">Email Newsletter</p>
+          <h2>
+            Subscribe <br />
+            for updates
+          </h2>
+        </div>
+
+        <!-- Правая часть -->
+        <form class="subscribe-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <img src="lines.png" alt="lines" class="lines" width="147" height="91" />
+    </section>
+
+    <section class="reviews">
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">"I can't recommend this podcast enough"</div>
+        <div class="author">Betty Lacey</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">"Jacob is the best in the business"</div>
+        <div class="author">Adam Driver</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">"A wealth of audio knowledge!"</div>
+        <div class="author">Marcus Brown</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">"Every episode is a gem!"</div>
+        <div class="author">Jessica Knowl</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">"Whoa whoa, let me take some notes!"</div>
+        <div class="author">Scott Adams</div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+          <img src="star.png" alt="star" />
+        </div>
+        <div class="quote">
+          "I've upped my game considerably since I started listening"
+        </div>
+        <div class="author">Steven Blast</div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Левая часть -->
+        <div class="footer-left">
+          <img src="IMAGE.svg" alt="logo" width="224" height="46" />
+          <div class="social-icons">
+            <a href="#"><img src="inst.svg" alt="Instagram" /></a>
+            <a href="#"><img src="tw.svg" alt="Twitter" /></a>
+            <a href="#"><img src="fb.svg" alt="Facebook" /></a>
+          </div>
+        </div>
+
+        <!-- Центр -->
+        <div class="footer-center">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Episodes</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Правая часть -->
+        <div class="footer-right">
+          <ul>
+            <li><a href="#">Style Guide</a></li>
+            <li><a href="#">Instructions</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">Credit</a></li>
+            <li><a href="#">Powered by Webflow</a></li>
+            <li><a href="#">Licenses</a></li>
+          </ul>
+        
+        <!-- Конец -->
+        <div class="music-icons">
+          <a href="#"><img src="IMAGE (1).svg" alt="Spotify" /></a>
+          <a href="#"><img src="IMAGE (2).svg" alt="Google Podcast" /></a>
+          <a href="#"><img src="IMAGE (3).svg" alt="Soundcloud" /></a>
+          <a href="#"><img src="IMAGE (4).svg" alt="Apple Podcast" /></a>
+          <a href="#"><img src="IMAGE (5).svg" alt="RSS" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
