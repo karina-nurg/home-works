@@ -1,15 +1,6 @@
-.container {
-    display: grid;
-    grid-template-columns: 380px 380px 380px;
-    grid-template-rows: 582px 582px 582px;
-    gap: 20px;
-    padding: 10px;
-    justify-content: center;
-}
-
-.card {
+.card4 {
     width: 380px;
-    border: 1px solid #F2F6FA;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
@@ -53,3 +44,10 @@
     border-radius: 8px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

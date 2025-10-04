@@ -1,0 +1,35 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 20px;
+}
+.block {
+   margin: 10px;
+   padding: 10px;
+   flex: 1;
+   border: 1px solid gray;
+   height: 200px;
+   font-size: 20px;
+   background-color: lightgray;
+   color: black;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media (max-width: 1024px) {
+   .block {
+       font-size: 16px;
+       height: 330px;
+       color: blue;
+   }
+}
+@media (max-width: 480px) {
+   .container {
+       flex-direction: column;
+   }
+   .block {
+       color: red;
+   }
+}
