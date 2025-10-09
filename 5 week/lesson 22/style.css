@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&display=swap');
+
+
+@font-face {
+   font-family: "MyFont";
+   src: url(./static/Montserrat-Bold.ttf); 
+   font-family: "MyFont-1";
+   src: url(./static-1/Monda-Medium.ttf); 
+}
+/* Задание 1: Использование нескольких шрифтов */
+
+h2 {
+     font-family: "Raleway", "MyFont", sans-serif;  
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+      font-family: "Playwrite DE Grund Guides", "MyFont-1", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Задание 2: Выбор и применение альтернативных шрифтов */
+
+p {
+   color: rebeccapurple;
+   font-family: "MyFont", "Raleway"; 
+}
