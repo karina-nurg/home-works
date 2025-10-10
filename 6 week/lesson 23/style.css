@@ -1,0 +1,145 @@
+
+    /* Задание 1: Тени для блоков (box-shadow) */
+
+
+.box {
+  width: 250px;
+  height: 100px;
+  background: lightblue;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* 1 Мягкая серая тень */
+.shadow1 {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 2 Цветная тень */
+.shadow2 {
+  box-shadow: 0 8px 15px rgba(0, 128, 255, 0.4);
+}
+
+/* 3 Сильная чёрная тень */
+.shadow3 {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* 4 Тень со смещением */
+.shadow4 {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 5 Множественная тень */
+.shadow5 {
+  box-shadow:
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Задание 2: Тени для текста (text-shadow) */
+
+/* 1 Мягкая серая тень */
+.shadow-1 {
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 2 Яркая синяя тень */
+.shadow-2 {
+  color: #0056b3;
+  text-shadow: 3px 3px 6px rgba(0, 128, 255, 0.6);
+}
+
+/* 3 Розовая тень с большим размытием */
+.shadow-3 {
+  color: #ff4081;
+  text-shadow: 4px 4px 10px rgba(255, 105, 180, 0.7);
+}
+
+/* 4 Контрастная чёрная тень */
+.shadow-4 {
+  color: black;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* 5 Множественная тень */
+.shadow-5 {
+  color: #111;
+  text-shadow:
+    2px 2px 0px #ff0000,
+    4px 4px 0px #00ff00,
+    6px 6px 0px #0000ff;
+}
+
+/* Задание 3: Линейный градиент (linear-gradient) */
+
+div {
+  width: 300px;
+  height: 120px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 1 Градиент сверху вниз (по умолчанию — to bottom) */
+.gradient1 {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
+
+/* 2 Градиент слева направо */
+.gradient2 {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+/* 3 Диагональный градиент */
+.gradient3 {
+  background: linear-gradient(45deg, #aa4f64, #f82e0a);
+}
+
+/* 4 Градиент с несколькими цветами */
+.gradient4 {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+}
+
+/* Задание 4: Радиальный градиент (radial-gradient) */
+
+div {
+  width: 300px;
+  height: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 1 Простой круглый градиент */
+.gradient-1 {
+  background: radial-gradient(circle, #ff7e5f, #68eb1d);
+}
+
+/* 2 Эллиптический градиент */
+.gradient-2 {
+  background: radial-gradient(ellipse, #e7e432, #185a9d);
+}
+
+/* 3 Градиент с несколькими цветами */
+.gradient-3 {
+  background: radial-gradient(circle, #ff9a9e, #fad0c4, #a6c1ee);
+}
+
+/* 4 Смещённый центр градиента */
+.gradient-4 {
+  background: radial-gradient(circle at top left, #ff4b2b, #d6ff41, #2b2b2b);
+}
