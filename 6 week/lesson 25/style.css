@@ -1,0 +1,30 @@
+.box {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.box::before {
+   content: "Вставлено перед содержимым.";
+   display: block;
+   color: #007bff;
+   margin-bottom: 10px;
+}
+
+.box::after {
+   content: "Вставлено после содержимого.";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+.paragraph::first-letter {
+   font-size: 2em;
+   font-weight: bold;
+   color: #ff0000;
+}
+
+.paragraph::first-line {
+   text-transform: uppercase;
+   font-weight: bold;
+}

@@ -1,0 +1,57 @@
+/* Задание 1: Использование псевдоэлемента `::before` */
+.one::before {
+  content: " Вставлено перед содержимым."; /* добавляем текст перед каждым абзацем */
+  color: blue;        /* изменяем цвет */
+  font-size: 18px;       /* увеличиваем размер шрифта */
+  font-weight: bold;     /* делаем текст жирным */
+}
+
+/* Задание 2: Использование псевдоэлемента `::after` */
+
+h1::after {
+  content: " ⭐";       /* Добавляем звёздочку после заголовка */
+  color: gold;          /* Цвет звезды */
+  font-size: 24px;      /* Размер */
+}
+
+h2::after {
+  content: " ➤";        /* Добавляем стрелку после h2 */
+  color: royalblue;
+  font-size: 18px;
+}
+
+/* Задание 3: Практическое использование псевдоэлементов */
+
+
+.content-block {
+  position: relative;
+  background: rgba(231, 239, 14, 0.543);
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Добавляем линию сверху (::before) */
+.content-block::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: 4px;
+  background: linear-gradient(to right, #ff6b6b, #feca57);
+  border-radius: 2px;
+}
+
+/* Добавляем линию снизу (::after) */
+.content-block::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: 4px;
+  background: linear-gradient(to right, #48dbfb, #1dd1a1);
+  border-radius: 2px;
+}
