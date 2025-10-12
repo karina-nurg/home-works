@@ -143,3 +143,7 @@ div {
 .gradient-4 {
   background: radial-gradient(circle at top left, #ff4b2b, #d6ff41, #2b2b2b);
 }
+
+
+body {
+justify-items: center;}
