@@ -4,7 +4,10 @@
 @font-face {
    font-family: "MyFont";
    src: url(./static/Montserrat-Bold.ttf); 
-   font-family: "MyFont-1";
+  
+}
+@font-face {
+    font-family: "MyFont-1";
    src: url(./static-1/Monda-Medium.ttf); 
 }
 /* Задание 1: Использование нескольких шрифтов */
