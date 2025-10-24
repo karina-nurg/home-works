@@ -54,6 +54,6 @@ let x1 = 8;
 
 console.log((x1 % 2 == 0 || x1 % 3 == 0) && x1 % 6 !== 0);
 
-let y1 = 9;
+let y = 11;
 
-console.log(y1 > 10 || y1 < 5);
+console.log(!(y > 10 || y < 5));
