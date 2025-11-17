@@ -1,0 +1,249 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+}
+.header {
+
+    background-color: #F5F7FA;
+    padding: 22px 105px;
+    color: #18191F;
+
+}
+
+.navbar-custom {
+    gap: 50px;
+}
+
+ .login-link {
+      color: #4CAF4F;
+      text-decoration: none;
+      margin-right: 14px;
+        padding: 10px 20px;
+    }
+
+     .btn-signup {
+      background-color: #4CAF4F;
+      color: white;
+      border-radius: 6px;
+      padding: 10px 20px;
+    }
+
+  .hero {
+      padding: 96px 144px;
+    }
+
+
+     .hero h1 {
+      font-size: 64px;
+      font-weight: 600;
+      color: #4D4D4D;
+    }
+    .hero h1 span {
+      color: #4CAF4F;
+    }
+    .hero p {
+      color: #717171;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      font-size: 16px;
+    }
+    .btn-register {
+      background-color: #4CAF4F;
+      color: white;
+      border-radius: 6px;
+      padding: 14px 32px;
+      font-weight: 500;
+    }
+    .btn-register:hover {
+      background-color: #4CAF4F;
+      color: white;
+    }
+    
+    .clients-section {
+     
+      padding: 40px 144px;
+      background-color: #FFFFFF;
+    }
+    .clients-section h2 {
+         text-align: center;
+      font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+      margin-bottom: 10px;
+    }
+    .clients-section p {
+         text-align: center;
+      color: #717171;
+      margin-bottom: 16px;
+    }
+    
+  .community-section {
+      text-align: center;
+      color: #4D4D4D;
+      padding: 40px 144px;
+      background-color: #fff;
+    }
+    .community-section h2 {
+      font-weight: 600;
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+    .community-section p {
+      color: #717171;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      
+      border: none;
+      border-radius: 12px;
+     width: 299px;
+    }
+  
+    .card-icon {
+     
+      margin-bottom: 16px;
+    }
+
+    .card-title {
+      font-weight: 700;
+        font-size: 28px;
+      margin-bottom: 8px;
+      color: #4D4D4D;
+    }
+    .card-text {
+      color: #717171;
+      font-size: 14px;
+    }
+
+    .btn-unlock {
+      background-color: #4CAF4F;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      padding: 14px 32px;
+    }
+
+    .Achievements {
+        background-color: #F5F7FA;
+        padding: 64px 144px;
+    }
+
+
+    .text-green {
+        color: #4CAF4F;
+    }
+
+
+    .calendar {
+        background-color: #FFFFFF;
+        padding: 48px 144px;
+    }
+
+    .customer {
+        background-color: #F5F7FA;
+        padding: 32px 144px;
+ 
+    }
+
+    .Community {
+        background-color: #FFFFFF;
+        padding: 48px 144px 94px 144px;
+        height: 648.6px;
+    }
+
+    .Community__title {
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        color: #4D4D4D;
+    }
+    .Community__text {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        color: #717171;
+    }
+
+    .frame16 {
+        padding: 32px 276.5px;
+    }
+
+    .frame16 h2 {
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 600;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+       width: 887px;
+       
+        
+    }
+
+    .btn-green {
+        background-color: #4CAF4F;
+        color: white;
+        border-radius: 6px;
+        padding: 14px 32px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .footer-end {
+        background-color: #263238;
+        padding: 64px 165px;
+        color: #FFFFFF;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #F5F7FA;
+    }
+
+    .text-grey {
+        color: #F5F7FA;
+        margin-bottom: 12px;
+        font-weight: 400;
+    }
+    .space li {
+        margin-bottom: 12px;
+    }
+
+    .footer-end h6 {
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+
+    .email-input-wrapper {
+  position: relative;
+  max-width: 255px;
+  height: 40px;
+  align-items: center;
+}
+
+.custom-input {
+  background-color: #515c61; /* тёмный фон */
+  color: #D9DBE1;
+  border: none;
+  padding-right: 50px; /* место для кнопки */
+}
+
+.custom-input::placeholder {
+  color: #D9DBE1;
+  font-size: 14px;
+}
+
+.btn-icon {
+  position: absolute;
+  top: 45%;
+  right: 12px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
